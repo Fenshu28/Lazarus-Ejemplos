@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="suma.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="usuma.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSuma"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uSuma"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="25"/>
+        <CursorPos X="13" Y="47"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="usuma.pas"/>
+        <Caret Line="11" Column="70" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="usuma.pas"/>
+        <Caret Line="42" Column="37" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="usuma.pas"/>
+        <Caret Line="50" Column="29" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="usuma.pas"/>
+        <Caret Line="55" Column="9" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="usuma.pas"/>
+        <Caret Line="46" Column="28" TopLine="25"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,27 @@
+object frmEtiqueta: TfrmEtiqueta
+  Left = 1328
+  Height = 547
+  Top = 202
+  Width = 556
+  Caption = 'Etiquetas'
+  ClientHeight = 547
+  ClientWidth = 556
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object lblEtiqueta: TLabel
+    Left = 24
+    Height = 15
+    Top = 16
+    Width = 308
+    Caption = 'Este mensaje es para realizar una prueba sobre este control'
+  end
+  object lblEtiqueta2: TLabel
+    Left = 24
+    Height = 64
+    Top = 64
+    Width = 96
+    AutoSize = False
+    Caption = 'Este mensaje es para realizar una prueba sobre este control'
+    WordWrap = True
+  end
+end

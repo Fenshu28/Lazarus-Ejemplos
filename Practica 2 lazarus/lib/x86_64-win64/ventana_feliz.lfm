@@ -1,0 +1,55 @@
+object frmFeliz: TfrmFeliz
+  Left = 1185
+  Height = 359
+  Top = 280
+  Width = 401
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Feliz Día'
+  ClientHeight = 359
+  ClientWidth = 401
+  LCLVersion = '3.2.0.0'
+  object bFeliz: TButton
+    Left = 293
+    Height = 25
+    Top = 330
+    Width = 104
+    Anchors = [akRight, akBottom]
+    Caption = 'Haga click aquí'
+    TabOrder = 0
+    OnClick = bFelizClick
+  end
+  object bSalir: TButton
+    Left = 8
+    Height = 25
+    Top = 330
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Salir'
+    TabOrder = 1
+    OnClick = bSalirClick
+  end
+  object imgHola: TImage
+    Left = 88
+    Height = 184
+    Top = 128
+    Width = 232
+    BorderSpacing.Left = 2
+    Stretch = True
+  end
+  object lbFeliz: TLabel
+    Left = 8
+    Height = 104
+    Top = 8
+    Width = 392
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '¡Que tenga un '#13#10'feliz día!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -48
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end

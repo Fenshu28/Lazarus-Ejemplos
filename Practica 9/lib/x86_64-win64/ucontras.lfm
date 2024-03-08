@@ -1,0 +1,49 @@
+object frmContrasena: TfrmContrasena
+  Left = 1438
+  Height = 314
+  Top = 256
+  Width = 303
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Contraseña'
+  ClientHeight = 314
+  ClientWidth = 303
+  LCLVersion = '3.2.0.0'
+  object txtContra: TLabeledEdit
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 144
+    EchoMode = emPassword
+    EditLabel.Height = 15
+    EditLabel.Width = 144
+    EditLabel.Caption = 'Captura la contraseña'
+    PasswordChar = '*'
+    TabOrder = 0
+  end
+  object imgContra: TImage
+    Left = 8
+    Height = 195
+    Top = 80
+    Width = 287
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Stretch = True
+  end
+  object btnContra: TButton
+    Left = 156
+    Height = 25
+    Top = 283
+    Width = 139
+    Anchors = [akRight, akBottom]
+    Caption = 'Analizar contraseña'
+    TabOrder = 1
+    OnClick = btnContraClick
+  end
+  object lbAviso: TLabel
+    Left = 8
+    Height = 15
+    Top = 56
+    Width = 287
+    AutoSize = False
+    Caption = 'Cerrado'
+  end
+end

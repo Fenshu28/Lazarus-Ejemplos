@@ -1,0 +1,31 @@
+object frmSumatorias: TfrmSumatorias
+  Left = 1457
+  Height = 240
+  Top = 315
+  Width = 320
+  Caption = 'frmSumatorias'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object txtDato: TLabeledEdit
+    Left = 24
+    Height = 23
+    Top = 24
+    Width = 152
+    EditLabel.Height = 15
+    EditLabel.Width = 152
+    EditLabel.Caption = 'Valor de ''n'''
+    TabOrder = 0
+    Text = '0'
+  end
+  object Button1: TButton
+    Left = 240
+    Height = 25
+    Top = 208
+    Width = 75
+    Caption = 'Button1'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end

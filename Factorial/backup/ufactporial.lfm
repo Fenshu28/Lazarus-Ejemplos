@@ -1,0 +1,40 @@
+object frmFactorial: TfrmFactorial
+  Left = 794
+  Height = 182
+  Top = 399
+  Width = 320
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Factorial'
+  ClientHeight = 182
+  ClientWidth = 320
+  LCLVersion = '2.2.0.4'
+  object txtDato: TLabeledEdit
+    Left = 88
+    Height = 34
+    Top = 32
+    Width = 142
+    EditLabel.Height = 17
+    EditLabel.Width = 142
+    EditLabel.Caption = 'Inserte el valor'
+    TabOrder = 0
+    Text = '0'
+  end
+  object lbResul: TLabel
+    Left = 0
+    Height = 64
+    Top = 80
+    Width = 320
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Resultado:'
+  end
+  object btnCalcular: TButton
+    Left = 128
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'Calcular'
+    OnClick = btnCalcularClick
+    TabOrder = 1
+  end
+end

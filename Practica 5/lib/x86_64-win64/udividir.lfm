@@ -1,0 +1,55 @@
+object frmDivide: TfrmDivide
+  Left = 1424
+  Height = 240
+  Top = 308
+  Width = 320
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Divide numeros'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object eDividendo: TLabeledEdit
+    Left = 40
+    Height = 23
+    Top = 36
+    Width = 104
+    EditLabel.Height = 15
+    EditLabel.Width = 104
+    EditLabel.Caption = 'Dame el dividendo'
+    TabOrder = 0
+    Text = '0'
+  end
+  object eDivisor: TLabeledEdit
+    Left = 176
+    Height = 23
+    Top = 36
+    Width = 112
+    EditLabel.Height = 15
+    EditLabel.Width = 112
+    EditLabel.Caption = 'Dame el divisor'
+    TabOrder = 1
+    Text = '0'
+  end
+  object eResultado: TLabeledEdit
+    Left = 120
+    Height = 23
+    Top = 116
+    Width = 88
+    EditLabel.Height = 15
+    EditLabel.Width = 88
+    EditLabel.Caption = 'Resultado'
+    ReadOnly = True
+    TabOrder = 2
+    Text = '0'
+  end
+  object bDividir: TButton
+    Left = 128
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'Dividir'
+    TabOrder = 3
+    OnClick = bDividirClick
+  end
+end

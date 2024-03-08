@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Feliz_dia.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ventana_feliz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmFeliz"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ventana_Feliz"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="7"/>
+        <CursorPos X="35" Y="39"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="1">
+      <Position>
+        <Filename Value="ventana_feliz.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="ventana_feliz.pas"/>
+        <Caret Line="38" Column="72" TopLine="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

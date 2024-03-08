@@ -1,0 +1,67 @@
+object frmCalifica: TfrmCalifica
+  Left = 1433
+  Height = 195
+  Top = 283
+  Width = 318
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Calificaciones'
+  ClientHeight = 195
+  ClientWidth = 318
+  LCLVersion = '3.2.0.0'
+  object eNombre: TLabeledEdit
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 163
+    EditLabel.Height = 15
+    EditLabel.Width = 163
+    EditLabel.Caption = 'Nombre del alumno'
+    TabOrder = 0
+    Text = '-'
+  end
+  object eCalificacion: TLabeledEdit
+    Left = 11
+    Height = 23
+    Top = 73
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'Calificación'
+    TabOrder = 1
+    Text = '0'
+  end
+  object lbLetrero: TLabel
+    Left = 8
+    Height = 34
+    Top = 123
+    Width = 305
+    Alignment = taCenter
+    Anchors = [akLeft, akRight, akBottom]
+    AutoSize = False
+    Caption = 'Mensaje de calificación'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object bCalificacion: TButton
+    Left = 235
+    Height = 25
+    Top = 164
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'Calificación'
+    TabOrder = 2
+    OnClick = bCalificacionClick
+  end
+  object lbNombre: TLabel
+    Left = 136
+    Height = 15
+    Top = 102
+    Width = 44
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = 'Nombre'
+  end
+end

@@ -1,0 +1,19 @@
+object frmPractica: TfrmPractica
+  Left = -8
+  Height = 1009
+  Top = -8
+  Width = 1920
+  Caption = 'Practica 1'
+  ClientHeight = 1009
+  ClientWidth = 1920
+  LCLVersion = '3.2.0.0'
+  object bSalir: TButton
+    Left = 208
+    Height = 57
+    Top = 96
+    Width = 90
+    Caption = 'Salir'
+    TabOrder = 0
+    OnClick = bSalirClick
+  end
+end
