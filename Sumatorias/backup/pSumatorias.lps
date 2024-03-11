@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="22"/>
       </Unit>
       <Unit>
         <Filename Value="usumatorias.pas"/>
@@ -22,34 +22,150 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uSumatorias"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="13"/>
-        <CursorPos X="45" Y="30"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="44"/>
+        <CursorPos X="9" Y="44"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\lcl\include\control.inc"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="3595"/>
         <CursorPos Y="3612"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="1">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="usumatorias.pas"/>
-        <Caret Line="31" Column="4" TopLine="17"/>
+        <Caret Line="48" Column="8" TopLine="26"/>
       </Position>
       <Position>
         <Filename Value="usumatorias.pas"/>
-        <Caret Line="30" Column="23" TopLine="13"/>
+        <Caret Line="41" Column="12" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="39" Column="22" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="40" Column="22" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="49" Column="16" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="52" Column="5" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="77" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="77" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="51" Column="14" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="42" Column="71" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="47" Column="22" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="51" Column="24" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="54" Column="9" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="50" Column="17" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="49" Column="17" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="18" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="50" Column="8" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="46" Column="24" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="48" Column="7" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="50" Column="12" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="45" Column="9" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="46" Column="68" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="36" Column="4" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="38" Column="19" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="25" Column="26" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="57" Column="6" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="39" Column="21" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="44" Column="18" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="usumatorias.pas"/>
+        <Caret Line="32" Column="19" TopLine="25"/>
       </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
+    <HistoryLists>
+      <List Name="LaunchingApplication" Type="File" Count="1">
+        <Item1 Value="C:\WINDOWS\system32\cmd.exe /C ${TargetCmdLine}"/>
+      </List>
+    </HistoryLists>
   </ProjectSession>
 </CONFIG>

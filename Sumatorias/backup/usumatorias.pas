@@ -12,10 +12,13 @@ type
   { TfrmSumatorias }
 
   TfrmSumatorias = class(TForm)
-    Button1: TButton;
+    btnCalc: TButton;
+    cmbOpcion: TComboBox;
+    lbResult: TLabel;
+    lbSumat: TLabel;
     txtDato: TLabeledEdit;
-    lbHola: TBoundLabel;
-    procedure Button1Click(Sender: TObject);
+    procedure btnCalcClick(Sender: TObject);
+    procedure cmbOpcionChange(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
@@ -28,33 +31,51 @@ var
 
 implementation
 
- function SumatoriaUno(n:integer) : integer;
- var
-   i:integer;
- begin
-   i:=1;
-   SumatoriaUno:= i;
-   while i <= n do
-   begin
-     SumatoriaUno:=SumatoriaUno+((2*i)+5);
-     i++;
-   end;
- end;
-
 {$R *.lfm}
 
 { TfrmSumatorias }
 
+function sumatoria(n:integer) : integer;
+var
+  t:integer;
+begin
+   sumatoria:=0;
 
-procedure TfrmSumatorias.Button1Click(Sender: TObject);
+  case t of
+    1: sumatoria:=sumatoria+((2*n)+5);
+    2: sumatoria:=sumatoria+(1);
+    3: sumatoria:=sumatoria+(1);
+    4: sumatoria:=sumatoria+(2);
+  else sumatoria:=-1;
+  end;
+end;
+
+function Calcular(n:integer) : integer;
+var
+  i:integer;
+begin
+  i:=1;
+  Calcular:=0;
+  while i <= n do
+  begin
+    Calcular:=Calcular+sumatoria(i);
+    i:=i+1;
+  end;
+end;
+
+procedure TfrmSumatorias.btnCalcClick(Sender: TObject);
 begin
 
+end;
+
+procedure TfrmSumatorias.cmbOpcionChange(Sender: TObject);
+begin
 
 end;
 
 procedure TfrmSumatorias.FormCreate(Sender: TObject);
 begin
-                           txtDato.NumbersOnly:=true;
+     txtDato.NumbersOnly:=true;
 end;
 
 end.

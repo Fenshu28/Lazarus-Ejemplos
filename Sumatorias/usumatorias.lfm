@@ -1,17 +1,18 @@
 object frmSumatorias: TfrmSumatorias
-  Left = 1457
-  Height = 240
-  Top = 315
-  Width = 320
+  Left = 1178
+  Height = 167
+  Top = 164
+  Width = 319
+  BorderIcons = [biSystemMenu, biMinimize, biHelp]
   Caption = 'frmSumatorias'
-  ClientHeight = 240
-  ClientWidth = 320
+  ClientHeight = 167
+  ClientWidth = 319
   OnCreate = FormCreate
   LCLVersion = '3.2.0.0'
   object txtDato: TLabeledEdit
-    Left = 24
+    Left = 8
     Height = 23
-    Top = 24
+    Top = 56
     Width = 152
     EditLabel.Height = 15
     EditLabel.Width = 152
@@ -19,13 +20,51 @@ object frmSumatorias: TfrmSumatorias
     TabOrder = 0
     Text = '0'
   end
-  object Button1: TButton
+  object btnCalc: TButton
     Left = 240
     Height = 25
-    Top = 208
+    Top = 135
     Width = 75
-    Caption = 'Button1'
+    Anchors = [akRight, akBottom]
+    Caption = 'Calcular'
     TabOrder = 1
-    OnClick = Button1Click
+    OnClick = btnCalcClick
+  end
+  object lbResult: TLabel
+    Left = 8
+    Height = 39
+    Top = 88
+    Width = 304
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Resultado:'
+  end
+  object lbSumat: TLabel
+    Left = 168
+    Height = 71
+    Top = 8
+    Width = 144
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'lbSumat'
+    Layout = tlCenter
+  end
+  object cmbOpcion: TComboBox
+    Left = 8
+    Height = 23
+    Top = 8
+    Width = 144
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+    )
+    ReadOnly = True
+    TabOrder = 2
+    Text = '1'
+    OnChange = cmbOpcionChange
   end
 end
