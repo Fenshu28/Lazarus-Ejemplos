@@ -15,7 +15,6 @@ type
     btnCalc: TButton;
     cmbOpcion: TComboBox;
     lbResult: TLabel;
-    lbSumat: TLabel;
     txtDato: TLabeledEdit;
     procedure btnCalcClick(Sender: TObject);
     procedure cmbOpcionChange(Sender: TObject);
@@ -35,22 +34,19 @@ implementation
 
 { TfrmSumatorias }
 
-function sumatoria(n:integer) : integer;
-var
-  t:integer;
+function sumatoria(i,t:integer) : double;
 begin
    sumatoria:=0;
-
   case t of
-    1: sumatoria:=sumatoria+((2*n)+5);
-    2: sumatoria:=sumatoria+(1);
-    3: sumatoria:=sumatoria+(1);
-    4: sumatoria:=sumatoria+(2);
+    0: sumatoria:=sumatoria+((2*i)+5);
+    1: sumatoria:=sumatoria+((4*sqr(i))+3);
+    2: sumatoria:=sumatoria+(((3*sqr(i))-(2*i)+8)div(sqr(i)-16));
+    3: sumatoria:=sumatoria+(sqrt(sqr(i)-4));
   else sumatoria:=-1;
   end;
 end;
 
-function Calcular(n:integer) : integer;
+function Calcular(n,t:integer) : double;
 var
   i:integer;
 begin
@@ -58,14 +54,14 @@ begin
   Calcular:=0;
   while i <= n do
   begin
-    Calcular:=Calcular+sumatoria(i);
+    Calcular:=Calcular+sumatoria(i,t);
     i:=i+1;
   end;
 end;
 
 procedure TfrmSumatorias.btnCalcClick(Sender: TObject);
 begin
-
+   lbResult.Caption:=Concat('Resultado:',#13,FloatToStr(Calcular(StrToInt(txtDato.Text),cmbOpcion.ItemIndex)));
 end;
 
 procedure TfrmSumatorias.cmbOpcionChange(Sender: TObject);
