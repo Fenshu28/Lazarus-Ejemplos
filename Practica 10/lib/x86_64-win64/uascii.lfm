@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = 1420
+  Height = 187
+  Top = 334
+  Width = 403
+  Caption = 'Form1'
+  ClientHeight = 187
+  ClientWidth = 403
+  LCLVersion = '3.2.0.0'
+  object txtCaracIn: TLabeledEdit
+    Left = 128
+    Height = 23
+    Top = 24
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 88
+    EditLabel.Caption = 'Dame el caracter'
+    LabelPosition = lpLeft
+    MaxLength = 1
+    TabOrder = 0
+  end
+  object txtDigOut: TLabeledEdit
+    Left = 304
+    Height = 23
+    Top = 24
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 85
+    EditLabel.Caption = 'El número ASCII'
+    LabelPosition = lpLeft
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object txtDigIn: TLabeledEdit
+    Left = 128
+    Height = 23
+    Top = 92
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 119
+    EditLabel.Caption = 'Dame el número ASCII'
+    LabelPosition = lpLeft
+    TabOrder = 2
+  end
+  object txtCaracOut: TLabeledEdit
+    Left = 304
+    Height = 23
+    Top = 92
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 68
+    EditLabel.Caption = 'El caracter es'
+    LabelPosition = lpLeft
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object btnAscii: TButton
+    Left = 136
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'ASCII'
+    TabOrder = 4
+    OnClick = btnAsciiClick
+  end
+  object btnCarac: TButton
+    Left = 288
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Caracter'
+    TabOrder = 5
+    OnClick = btnCaracClick
+  end
+end

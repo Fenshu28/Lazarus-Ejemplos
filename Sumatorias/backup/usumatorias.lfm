@@ -1,5 +1,5 @@
 object frmSumatorias: TfrmSumatorias
-  Left = 981
+  Left = 1465
   Height = 195
   Top = 370
   Width = 319
@@ -8,13 +8,13 @@ object frmSumatorias: TfrmSumatorias
   ClientHeight = 195
   ClientWidth = 319
   OnCreate = FormCreate
-  LCLVersion = '2.2.0.4'
+  LCLVersion = '3.2.0.0'
   object txtDato: TLabeledEdit
     Left = 8
-    Height = 34
+    Height = 23
     Top = 64
     Width = 152
-    EditLabel.Height = 17
+    EditLabel.Height = 15
     EditLabel.Width = 152
     EditLabel.Caption = 'Valor de ''n'''
     TabOrder = 0
@@ -27,8 +27,8 @@ object frmSumatorias: TfrmSumatorias
     Width = 75
     Anchors = [akRight, akBottom]
     Caption = 'Calcular'
-    OnClick = btnCalcClick
     TabOrder = 1
+    OnClick = btnCalcClick
   end
   object lbResult: TLabel
     Left = 8
@@ -39,22 +39,12 @@ object frmSumatorias: TfrmSumatorias
     AutoSize = False
     Caption = 'Resultado:'
   end
-  object lbSumat: TLabel
-    Left = 168
-    Height = 90
-    Top = 8
-    Width = 144
-    Alignment = taCenter
-    AutoSize = False
-    Caption = 'lbSumat'
-    Layout = tlCenter
-  end
   object cmbOpcion: TComboBox
     Left = 8
-    Height = 34
+    Height = 23
     Top = 8
     Width = 144
-    ItemHeight = 0
+    ItemHeight = 15
     ItemIndex = 0
     Items.Strings = (
       'Sumatoria 1'
@@ -62,9 +52,9 @@ object frmSumatorias: TfrmSumatorias
       'Sumatoria 3'
       'Sumatoria 4'
     )
-    OnChange = cmbOpcionChange
     ReadOnly = True
     TabOrder = 2
     Text = 'Sumatoria 1'
+    OnChange = cmbOpcionChange
   end
 end

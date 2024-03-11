@@ -15,7 +15,6 @@ type
     btnCalc: TButton;
     cmbOpcion: TComboBox;
     lbResult: TLabel;
-    lbSumat: TLabel;
     txtDato: TLabeledEdit;
     procedure btnCalcClick(Sender: TObject);
     procedure cmbOpcionChange(Sender: TObject);
@@ -62,7 +61,7 @@ end;
 
 procedure TfrmSumatorias.btnCalcClick(Sender: TObject);
 begin
-   lbResult.Caption:=Concat('Resultado:',#13,FloatToStr(Calcular(StrToInt(txtDato.Text),cmbOpcion.ItemIndex)));
+   lbResult.Caption:=Concat('Resultado:',#13,FloatToStr(Calcular(StrToFloat(txtDato.Text),cmbOpcion.ItemIndex)));
 end;
 
 procedure TfrmSumatorias.cmbOpcionChange(Sender: TObject);

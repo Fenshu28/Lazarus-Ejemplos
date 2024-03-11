@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 1411
+  Height = 268
+  Top = 170
+  Width = 307
+  Caption = 'Form1'
+  ClientHeight = 268
+  ClientWidth = 307
+  LCLVersion = '3.2.0.0'
+  object txtCad1: TLabeledEdit
+    Left = 112
+    Height = 23
+    Top = 8
+    Width = 112
+    EditLabel.Height = 15
+    EditLabel.Width = 101
+    EditLabel.Caption = 'Introduce cadena 1'
+    LabelPosition = lpLeft
+    TabOrder = 0
+  end
+  object txtCad2: TLabeledEdit
+    Left = 112
+    Height = 23
+    Top = 56
+    Width = 112
+    EditLabel.Height = 15
+    EditLabel.Width = 101
+    EditLabel.Caption = 'Introduce cadena 2'
+    LabelPosition = lpLeft
+    TabOrder = 1
+  end
+  object txtCad3: TLabeledEdit
+    Left = 112
+    Height = 23
+    Top = 100
+    Width = 112
+    EditLabel.Height = 15
+    EditLabel.Width = 52
+    EditLabel.Caption = 'Resultado'
+    LabelPosition = lpLeft
+    TabOrder = 2
+  end
+  object btnConcat: TButton
+    Left = 8
+    Height = 25
+    Top = 144
+    Width = 140
+    Caption = 'Concatenar'
+    TabOrder = 3
+    OnClick = btnConcatClick
+  end
+  object btnCopiar: TButton
+    Left = 160
+    Height = 25
+    Top = 144
+    Width = 140
+    Caption = 'Copiar'
+    TabOrder = 4
+  end
+  object btnLong: TButton
+    Left = 8
+    Height = 25
+    Top = 176
+    Width = 140
+    Caption = 'Longitud de cadena 1'
+    TabOrder = 5
+  end
+  object btnCompara: TButton
+    Left = 160
+    Height = 25
+    Top = 176
+    Width = 140
+    Caption = 'Comparar'
+    TabOrder = 6
+  end
+  object btnMinMay: TButton
+    Left = 8
+    Height = 25
+    Top = 208
+    Width = 140
+    Caption = 'Minusculas a Mayusculas'
+    TabOrder = 7
+  end
+  object btnMayMin: TButton
+    Left = 160
+    Height = 25
+    Top = 208
+    Width = 140
+    Caption = 'Mayusculas a Minusculas'
+    TabOrder = 8
+  end
+end
