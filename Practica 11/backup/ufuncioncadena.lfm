@@ -1,9 +1,11 @@
-object Form1: TForm1
+object frmFunciones: TfrmFunciones
   Left = 1411
   Height = 268
   Top = 170
   Width = 307
-  Caption = 'Form1'
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Funciones de una cadena'
   ClientHeight = 268
   ClientWidth = 307
   LCLVersion = '3.2.0.0'
@@ -56,6 +58,7 @@ object Form1: TForm1
     Width = 140
     Caption = 'Copiar'
     TabOrder = 4
+    OnClick = btnCopiarClick
   end
   object btnLong: TButton
     Left = 8
@@ -64,6 +67,7 @@ object Form1: TForm1
     Width = 140
     Caption = 'Longitud de cadena 1'
     TabOrder = 5
+    OnClick = btnLongClick
   end
   object btnCompara: TButton
     Left = 160
@@ -72,6 +76,7 @@ object Form1: TForm1
     Width = 140
     Caption = 'Comparar'
     TabOrder = 6
+    OnClick = btnComparaClick
   end
   object btnMinMay: TButton
     Left = 8
@@ -80,6 +85,7 @@ object Form1: TForm1
     Width = 140
     Caption = 'Minusculas a Mayusculas'
     TabOrder = 7
+    OnClick = btnMinMayClick
   end
   object btnMayMin: TButton
     Left = 160
@@ -88,5 +94,6 @@ object Form1: TForm1
     Width = 140
     Caption = 'Mayusculas a Minusculas'
     TabOrder = 8
+    OnClick = btnMayMinClick
   end
 end

@@ -9,9 +9,9 @@ uses
 
 type
 
-  { TForm1 }
+  { TfrmFunciones }
 
-  TForm1 = class(TForm)
+  TfrmFunciones = class(TForm)
     btnConcat: TButton;
     btnCopiar: TButton;
     btnLong: TButton;
@@ -21,8 +21,12 @@ type
     txtCad1: TLabeledEdit;
     txtCad2: TLabeledEdit;
     txtCad3: TLabeledEdit;
+    procedure btnComparaClick(Sender: TObject);
     procedure btnConcatClick(Sender: TObject);
     procedure btnCopiarClick(Sender: TObject);
+    procedure btnLongClick(Sender: TObject);
+    procedure btnMayMinClick(Sender: TObject);
+    procedure btnMinMayClick(Sender: TObject);
   private
 
   public
@@ -30,22 +34,49 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmFunciones: TfrmFunciones;
 
 implementation
 
 {$R *.lfm}
 
-{ TForm1 }
+{ TfrmFunciones }
 
-procedure TForm1.btnConcatClick(Sender: TObject);
+procedure TfrmFunciones.btnConcatClick(Sender: TObject);
 begin
   txtCad3.Text:=Concat(txtCad1.Text,txtCad2.Text);
 end;
 
-procedure TForm1.btnCopiarClick(Sender: TObject);
+procedure TfrmFunciones.btnComparaClick(Sender: TObject);
+begin
+  if(txtCad1.Text = txtCad2.Text) then
+  begin
+    txtCad3.Text:='Iguales';
+  end
+  else
+  begin
+    txtCad3.Text:='Diferentes';
+  end;
+end;
+
+procedure TfrmFunciones.btnCopiarClick(Sender: TObject);
 begin
   txtCad3.Text:=Copy(txtCad1.Text,3,4);
+end;
+
+procedure TfrmFunciones.btnLongClick(Sender: TObject);
+begin
+  txtCad3.Text:=IntToStr(Length(txtCad1.Text));
+end;
+
+procedure TfrmFunciones.btnMayMinClick(Sender: TObject);
+begin
+  txtCad3.Text:=LowerCase(txtCad1.Text);
+end;
+
+procedure TfrmFunciones.btnMinMayClick(Sender: TObject);
+begin
+    txtCad3.Text:=UpperCase(txtCad1.Text);
 end;
 
 end.
