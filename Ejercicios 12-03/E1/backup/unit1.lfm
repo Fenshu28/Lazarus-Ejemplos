@@ -1,8 +1,42 @@
 object Form1: TForm1
   Left = 1394
-  Height = 240
+  Height = 132
   Top = 296
-  Width = 320
+  Width = 233
+  BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Form1'
+  ClientHeight = 132
+  ClientWidth = 233
   LCLVersion = '3.2.0.0'
+  object txtDato: TLabeledEdit
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 112
+    EditLabel.Height = 15
+    EditLabel.Width = 112
+    EditLabel.Caption = 'Indica el numero'
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 40
+    Top = 56
+    Width = 219
+    Alignment = taCenter
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = False
+    Caption = 'Resultado'
+    Layout = tlCenter
+  end
+  object btnComprobar: TButton
+    Left = 152
+    Height = 25
+    Top = 100
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'Comprobar'
+    TabOrder = 1
+    OnClick = btnComprobarClick
+  end
 end

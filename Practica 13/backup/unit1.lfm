@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = 1426
+  Height = 185
+  Top = 375
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 185
+  ClientWidth = 320
+  LCLVersion = '3.2.0.0'
+  object txtCadena: TLabeledEdit
+    Left = 152
+    Height = 23
+    Top = 8
+    Width = 112
+    EditLabel.Height = 15
+    EditLabel.Width = 90
+    EditLabel.Caption = 'Escribe la cadena'
+    LabelPosition = lpLeft
+    TabOrder = 0
+  end
+  object txtCarac: TLabeledEdit
+    Left = 152
+    Height = 23
+    Top = 40
+    Width = 112
+    EditLabel.Height = 15
+    EditLabel.Width = 135
+    EditLabel.Caption = 'Dame el caracter a buscar'
+    LabelPosition = lpLeft
+    TabOrder = 1
+  end
+  object txtPos: TLabeledEdit
+    Left = 208
+    Height = 23
+    Top = 112
+    Width = 56
+    EditLabel.Height = 15
+    EditLabel.Width = 190
+    EditLabel.Caption = 'Dame posición del caracter a buscar'
+    LabelPosition = lpLeft
+    TabOrder = 2
+  end
+  object btnPos: TButton
+    Left = 40
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Posición'
+    TabOrder = 3
+    OnClick = btnPosClick
+  end
+  object txtResult: TEdit
+    Left = 152
+    Height = 23
+    Top = 72
+    Width = 112
+    TabOrder = 4
+  end
+  object btnCarac: TButton
+    Left = 40
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Caracter'
+    TabOrder = 5
+    OnClick = btnCaracClick
+  end
+  object txtResult2: TEdit
+    Left = 208
+    Height = 23
+    Top = 144
+    Width = 56
+    TabOrder = 6
+  end
+end

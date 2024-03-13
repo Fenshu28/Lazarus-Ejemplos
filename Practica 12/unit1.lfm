@@ -1,0 +1,38 @@
+object Form1: TForm1
+  Left = 1424
+  Height = 116
+  Top = 318
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 116
+  ClientWidth = 320
+  LCLVersion = '3.2.0.0'
+  object txtNumJ: TLabeledEdit
+    Left = 136
+    Height = 23
+    Top = 16
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 107
+    EditLabel.Caption = 'Número del jugador'
+    LabelPosition = lpLeft
+    TabOrder = 0
+  end
+  object btnJuga: TButton
+    Left = 72
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Jugador'
+    TabOrder = 1
+    OnClick = btnJugaClick
+  end
+  object btnSalir: TButton
+    Left = 208
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Salir'
+    TabOrder = 2
+  end
+end
